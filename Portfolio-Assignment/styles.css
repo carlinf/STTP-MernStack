@@ -1,0 +1,72 @@
+.bgimage{
+    height: 100vh;
+    background: url('./images/Header-image.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+/* Text above image */
+
+.main_title{
+    font-size: 3.5rem;
+}
+
+.second_desc{
+    font-size: 1.5rem;
+}
+
+.first-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+
+/* services section css */
+.projectText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.fi {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .fi {
+    color: #008000;
+}
+.projectText:hover {
+    border: 1px solid #008000;
+}
+
+#project{
+    margin-top: 100px;
+}
+
+#about{
+    margin-top: 50px;
+}
+
+
+#footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.nav-link,.navbar-brand{
+    color: aliceblue;
+}
+
+.text-center{
+    margin-top: 50px;
+}
